@@ -1,0 +1,7 @@
+Json
+Pickle
+Sklearn
+Requests
+fastapi
+unicorn
+pydantic
