@@ -24,7 +24,7 @@ from sklearn.metrics import accuracy_score
 
 
 # loading the saved model 
-loaded_model = pickle.load(open("trained_model.pkl",'rb'))
+loaded_model = pickle.load(open("trained_model.sav",'rb'))
 
 # temp = open("trained_model.pkl","rb")
 # loaded_model=pickle.load(temp)
