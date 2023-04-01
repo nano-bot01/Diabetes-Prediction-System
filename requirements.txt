@@ -9,9 +9,7 @@ Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
 pickle-mixin==1.0.2
-request
-render_template
 streamlit==1.20.0
 xgboost==1.7.4
-sklearn
+sklearn==0.0.post1
 matplotlib==3.7.1
