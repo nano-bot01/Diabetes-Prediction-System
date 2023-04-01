@@ -9,19 +9,6 @@ Created on Mon Mar 27 23:46:19 2023
 import numpy as np
 import pickle
 import streamlit as st
-import numpy as np
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn import svm
-from xgboost import XGBClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import confusion_matrix,  accuracy_score, classification_report
-from sklearn.metrics import accuracy_score
-
 
 # loading the saved model 
 loaded_model = pickle.load(open("trained_model.sav",'rb'))
