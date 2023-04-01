@@ -1,15 +1,14 @@
 streamlit 
+click==7.1.2
 numpy>=1.17.4
 pandas>=0.25.3
 scikit-learn>=0.21.3
 xgboost>=0.90
 gunicorn==19.9.0
 itsdangerous==1.1.0
-Jinja2>=3.0.0
-MarkupSafe==1.1.1
 Werkzeug==0.15.5
 pickle-mixin==1.0.2
 xgboost==1.7.4
 sklearn==0.0.post1
 matplotlib==3.7.1
-click==7.1.2
+
