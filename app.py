@@ -80,7 +80,7 @@ def main():
         Outcome: Class variable (0 or 1)""")
     
     st.text("\n\n")
-    st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
+#     st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
     
     st.write(" \n\n\n\n\n\n")
     st.markdown("******")
