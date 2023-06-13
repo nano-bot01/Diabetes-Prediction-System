@@ -66,8 +66,10 @@ def main():
     st.markdown("""
     Sample data to fill: 
         3	78	50	32	88	 31	    0.248	26  => Diabetic Person
-        4	110	92	0	0	37.6	0.191	30	=> Non-Diabetic Person
-                         
+        4	110	92	0	0	37.6	0.191	30	=> Non-Diabetic Person""")
+    
+    st.markdown("""
+    
     About the data to be filled : 
         
         Pregnancies: Number of times pregnancy occurred (0, 0+)
