@@ -64,26 +64,30 @@ def main():
     st.markdown("***")
     
     st.markdown("""
+    Sample data to fill: 3	78	50	32	88	31	0.248	26	    => Diabetic Person
+                         4	110	92	0	0	37.6	0.191	30	=> Non-Diabetic Person
+                         
     About the data to be filled : 
         
-        Pregnancies: Number of times pregnant 
-        Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-        BloodPressure: Diastolic blood pressure (mm Hg)
-        SkinThickness: Triceps skin fold thickness (mm)
-        Insulin: 2-Hour serum insulin (mu U/ml)
-        BMI: Body mass index (weight in kg/(height in m)^2)
-        DiabetesPedigreeFunction: Diabetes pedigree function
-        Age: Age (years)
+        Pregnancies: Number of times pregnancy occurred (0, 0+)
+        Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test (0 - 300)
+        BloodPressure: Diastolic blood pressure (mm Hg) (0, 200)
+        SkinThickness: Triceps skin fold thickness (mm) (0, 0+)
+        Insulin: 2-Hour serum insulin (mu U/ml) 
+        BMI: Body mass index (weight in kg/(height in m)^2) (9 - 72)
+        DiabetesPedigreeFunction: Diabetes pedigree function (0.0 - 3.0)
+        Age: Age (years) (0, 0+)
         Outcome: Class variable (0 or 1)""")
     
     st.text("\n\n")
-    st.markdown("<h3 style='text-align: center; color: red;'>Model accuracy is only 77% </h3>", unsafe_allow_html=True)
-    
+    st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
     
     st.write(" \n\n\n\n\n\n")
     st.markdown("******")
     
-    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01)")
+    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n LinkedIn(https://www.linkedin.com/in/ankit-nainwal1/)")
+    
+    st.write("\n© 2023 Diabetes Prediction System. All rights reserved.")
     
     
 if __name__ == '__main__':
