@@ -28,10 +28,10 @@ def diabetes_prediction(input_data):
     result = loaded_model.predict(input_data_reshaped)
     print("The prediction is : ",result)
     
-    if (result[0] == 0):
-      return "The person is not Diabetic"
+    if (result[0] == 1):
+      return "The person is Diabetic"        
     else:
-      return "The person is Diabetic"
+      return "The person is not Diabetic"
   
 
 def main():
@@ -87,7 +87,7 @@ def main():
     st.text("\n\n")
 #     st.markdown("<h3 style='text-align: center; color: red;'> Model accuracy is   </h3>", unsafe_allow_html=True)    
     
-    st.write(" \n\n\n\n\n\n")
+    st.write(" \n\n\n\n")
     st.markdown("******")
     
     st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/)")
