@@ -68,7 +68,7 @@ def main():
     Sample data to fill: 
     
         3	78	50	32	88	 31	    0.248	26  => Diabetic Person
-        4	110	92	0	0	37.6	  0.191	30	=> Non-Diabetic Person""")
+        4	110	92	0	0	37.6	  0.191	 30	 => Non-Diabetic Person""")
     
     st.markdown("""
     
@@ -90,7 +90,7 @@ def main():
     st.write(" \n\n\n\n\n\n")
     st.markdown("******")
     
-    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01)  [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/)")
+    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/)")
     
     st.write("\n© 2023 Diabetes Prediction System. All rights reserved.")
 if __name__ == '__main__':
