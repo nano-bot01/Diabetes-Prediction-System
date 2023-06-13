@@ -86,7 +86,8 @@ def main():
     st.write(" \n\n\n\n\n\n")
     st.markdown("******")
     
-    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01) \n LinkedIn(https://www.linkedin.com/in/ankit-nainwal1/)")
+    st.write("Contributor : [Ankit Nainwal](https://github.com/nano-bot01)")
+    st.write("\nLinkedIn(https://www.linkedin.com/in/ankit-nainwal1/)")
     
     st.write("\n© 2023 Diabetes Prediction System. All rights reserved.")
 if __name__ == '__main__':
